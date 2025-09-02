@@ -31,8 +31,6 @@ io.on("connection", (socket) => {
 });
 
 app.use(cors());
-
-const port = 3000;
-server.listen(port, () =>
-  console.log(`Server is Running http://localhost:${port}`)
+server.listen(() =>
+  console.log(`Server is Running https://stunning-parfait-6e70de.netlify.app/`)
 );
